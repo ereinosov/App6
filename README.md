@@ -117,7 +117,7 @@ dependencies {
 
 ## Capturas de pantalla
 
-![Navigation View](capturas/Captura de pantalla 2026-06-15 165843.png)
+![Navigation View](capturas/captura.png)
 
 -----
 
