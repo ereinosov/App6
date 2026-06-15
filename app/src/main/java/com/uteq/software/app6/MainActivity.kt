@@ -3,6 +3,7 @@ package com.uteq.software.app6
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         val toolbar =
             findViewById<Toolbar>(R.id.topAppBar)
         setSupportActionBar(toolbar);
+
+    }
+    fun onClickFAB(view: View) {
+        Toast.makeText(this, "Floating Action Button Clicked", Toast.LENGTH_SHORT).show()
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu, menu)
